@@ -1,0 +1,28 @@
+Added Component: Designator=C1(Cap 100uF)
+Added Component: Designator=C2(Cap 100uF)
+Added Component: Designator=Input(Terminal Barrier Besar 2 PIN)
+Added Component: Designator=LED1(LED 5mm)
+Added Component: Designator=LM7805(78XX/79XX HEATSINK)
+Added Component: Designator=Output(Terminal Barrier Besar 2 PIN)
+Added Component: Designator=R1(Resistor 0.25W)
+Added Pin To Net: NetName=5v Pin=C2-1
+Added Pin To Net: NetName=5v Pin=LED1-1
+Added Pin To Net: NetName=5v Pin=LM7805-3
+Added Pin To Net: NetName=5v Pin=Output-1
+Added Net: Name=5v
+Added Pin To Net: NetName=9v Pin=C1-1
+Added Pin To Net: NetName=9v Pin=Input-1
+Added Pin To Net: NetName=9v Pin=LM7805-1
+Added Net: Name=9v
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=Input-2
+Added Pin To Net: NetName=GND Pin=LM7805-2
+Added Pin To Net: NetName=GND Pin=Output-2
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetLED1_2 Pin=LED1-2
+Added Pin To Net: NetName=NetLED1_2 Pin=R1-1
+Added Net: Name=NetLED1_2
+Added Class: Name=PCB_tutorial
+Added Room: Name=PCB_tutorial

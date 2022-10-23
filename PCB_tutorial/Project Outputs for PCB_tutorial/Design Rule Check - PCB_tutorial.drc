@@ -1,0 +1,70 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Ahmad Aziz\Data\Project\Workshop_HME\tutorial_PCB\PCB_tutorial\PCB_tutorial.PcbDoc
+Date     : 23/10/2022
+Time     : 12.30.51
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net 9v Between Pad C1-1(2115mil,3010mil) on Multi-Layer And Pad Input-1(2887.067mil,3020mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C1-2(2415mil,3010mil) on Multi-Layer And Pad Input-2(3280.768mil,3020mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R1-2(1798.918mil,3330mil) on Multi-Layer And Pad C1-2(2415mil,3010mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 5v Between Pad LED1-1(3623.918mil,3235mil) on Multi-Layer And Pad C2-1(4065mil,3010mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 5v Between Pad C2-1(4065mil,3010mil) on Multi-Layer And Pad LM7805-3(4807.918mil,2733mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Input-2(3280.768mil,3020mil) on Multi-Layer And Pad C2-2(4365mil,3010mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C2-2(4365mil,3010mil) on Multi-Layer And Pad LM7805-2(4807.918mil,2833mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 9v Between Pad Input-1(2887.067mil,3020mil) on Multi-Layer And Pad LM7805-1(4807.918mil,2933mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetLED1_2 Between Pad R1-1(1798.918mil,2930mil) on Multi-Layer And Pad LED1-2(3723.918mil,3235mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad LM7805-2(4807.918mil,2833mil) on Multi-Layer And Pad Output-2(5870.768mil,3020mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 5v Between Pad LM7805-3(4807.918mil,2733mil) on Multi-Layer And Pad Output-1(5477.067mil,3020mil) on Multi-Layer 
+Rule Violations :11
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=15mil) (Max=30mil) (Preferred=20mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint: (196.85mil > 100mil) Pad Input-1(2887.067mil,3020mil) on Multi-Layer Actual Slot Hole Width = 196.85mil
+   Violation between Hole Size Constraint: (196.85mil > 100mil) Pad Input-2(3280.768mil,3020mil) on Multi-Layer Actual Slot Hole Width = 196.85mil
+   Violation between Hole Size Constraint: (196.85mil > 100mil) Pad Output-1(5477.067mil,3020mil) on Multi-Layer Actual Slot Hole Width = 196.85mil
+   Violation between Hole Size Constraint: (196.85mil > 100mil) Pad Output-2(5870.768mil,3020mil) on Multi-Layer Actual Slot Hole Width = 196.85mil
+Rule Violations :4
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (8.491mil < 10mil) Between Pad R1-1(1798.918mil,2930mil) on Multi-Layer And Track (1798.918mil,2970mil)(1798.918mil,3010mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [8.491mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (8.491mil < 10mil) Between Pad R1-2(1798.918mil,3330mil) on Multi-Layer And Track (1798.918mil,3250mil)(1798.918mil,3290mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [8.491mil]
+Rule Violations :2
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Room PCB_tutorial (Bounding Region = (1738.918mil, 2290mil, 6098.918mil, 3470mil) (InComponentClass('PCB_tutorial'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+   Violation between Height Constraint: Small Component C1-Cap Polar 100uF (2265mil,3010mil) on Bottom Layer Actual Height = 1022.943mil
+   Violation between Height Constraint: Small Component C2-Cap Polar 100uF (4215mil,3010mil) on Bottom Layer Actual Height = 1022.943mil
+Rule Violations :2
+
+
+Violations Detected : 19
+Waived Violations : 0
+Time Elapsed        : 00:00:01
